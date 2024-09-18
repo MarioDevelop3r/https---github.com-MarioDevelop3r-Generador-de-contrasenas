@@ -174,8 +174,19 @@ h1 {
 /* Media Queries para Responsividad */
 @media (max-width: 768px) {
     .container {
-        flex-direction: column;
         width: 90%;
+    }
+    .container__contenido {
+        flex-direction: column;
+    }
+    .container__campo {
+        flex-direction: column;
+        margin: 12px 0;
+    }
+    .container__informacion {
+        padding: 1rem;
+        flex-direction: column;
+        min-width: fit-content;
     }
 
     h1 {
